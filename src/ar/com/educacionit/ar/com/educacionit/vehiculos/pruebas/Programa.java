@@ -18,5 +18,7 @@ public abstract class Programa {
         System.out.println(comprador1.toString());
         System.out.println(vendedor1.toString());
 
+        System.out.println("HOLA GIT");
+
     }
 }
