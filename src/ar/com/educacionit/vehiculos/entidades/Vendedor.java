@@ -1,6 +1,8 @@
-package ar.com.educacionit.base.entidades;
+package ar.com.educacionit.vehiculos.entidades;
 
-public class Vendedor extends Persona{
+import ar.com.educacionit.base.entidades.Persona;
+
+public class Vendedor extends Persona {
 
     int cantAutosVendidos;
 

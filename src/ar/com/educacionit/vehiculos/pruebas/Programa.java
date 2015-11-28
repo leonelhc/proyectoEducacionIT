@@ -1,8 +1,6 @@
-package ar.com.educacionit.ar.com.educacionit.vehiculos.pruebas;
+package ar.com.educacionit.vehiculos.pruebas;
 
-import ar.com.educacionit.base.entidades.Persona;
-import ar.com.educacionit.base.entidades.Vehiculo;
-import ar.com.educacionit.base.entidades.Vendedor;
+import ar.com.educacionit.vehiculos.entidades.Vendedor;
 import ar.com.educacionit.vehiculos.entidades.Auto;
 import ar.com.educacionit.vehiculos.entidades.Comprador;
 
