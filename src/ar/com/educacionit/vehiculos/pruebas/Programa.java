@@ -4,7 +4,7 @@ import ar.com.educacionit.vehiculos.entidades.Vendedor;
 import ar.com.educacionit.vehiculos.entidades.Auto;
 import ar.com.educacionit.vehiculos.entidades.Comprador;
 
-public abstract class Programa {
+public class Programa {
 
     public static void main(String[] args){
 

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="627.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ar.com.educacionit.vehiculos.ventanas.AutosVentanaController">
+   <children>
+      <TableView fx:id="TableView" prefHeight="400.0" prefWidth="237.0">
+        <columns>
+          <TableColumn fx:id="TableColumnC1" prefWidth="118.0" text="C1" />
+          <TableColumn fx:id="TableColumnC2" prefWidth="118.0" text="C2" />
+        </columns>
+      </TableView>
+      <Label fx:id="lblTitulo" layoutX="245.0" layoutY="6.0" prefHeight="17.0" prefWidth="186.0" text="Datos del Auto">
+         <font>
+            <Font name="Verdana" size="12.0" />
+         </font>
+      </Label>
+      <GridPane layoutX="245.0" layoutY="33.0" prefHeight="188.0" prefWidth="200.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label fx:id="lblAlto" text="Alto:" />
+            <Label fx:id="lblAncho" text="Ancho:" GridPane.rowIndex="1" />
+            <Label fx:id="lblLargo" text="Largo:" GridPane.rowIndex="2" />
+            <Label fx:id="lblModelo" text="Modelo:" GridPane.rowIndex="3" />
+            <Label fx:id="lblMarca" text="Marca:" GridPane.rowIndex="4" />
+            <Label fx:id="lblColor" text="Color" GridPane.rowIndex="5" />
+            <Label fx:id="lblPrecio" text="Precio" GridPane.rowIndex="6" />
+            <Label fx:id="lblAnchoInfo" prefHeight="17.0" prefWidth="96.0" GridPane.columnIndex="1" />
+            <Label fx:id="lblAnchoInfo" prefHeight="17.0" prefWidth="95.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Label fx:id="lblLargoInfo" prefHeight="17.0" prefWidth="95.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Label fx:id="lblModeloInfo" prefHeight="17.0" prefWidth="95.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Label fx:id="lblMarcaInfo" prefHeight="17.0" prefWidth="95.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <Label fx:id="lblColorInfo" prefHeight="17.0" prefWidth="95.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <Label fx:id="lblPrecioInfo" prefHeight="17.0" prefWidth="95.0" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+         </children>
+      </GridPane>
+      <TextArea fx:id="TextArea" layoutX="245.0" layoutY="225.0" prefHeight="132.0" prefWidth="372.0" />
+      <HBox layoutX="245.0" layoutY="369.0" prefHeight="17.0" prefWidth="372.0" spacing="2.0">
+         <children>
+            <Button fx:id="btnNuevo" mnemonicParsing="false" prefHeight="25.0" prefWidth="82.0" text="Nuevo" />
+            <Button fx:id="btnEditar" mnemonicParsing="false" prefHeight="25.0" prefWidth="82.0" text="Editar" />
+            <Button fx:id="btnBorrar" mnemonicParsing="false" prefHeight="25.0" prefWidth="82.0" text="Borrar" />
+            <HBox prefHeight="28.0" prefWidth="90.0" />
+            <Button fx:id="btnCerrar" mnemonicParsing="false" prefHeight="25.0" prefWidth="82.0" text="Cerrar" />
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
